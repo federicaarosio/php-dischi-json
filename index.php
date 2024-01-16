@@ -15,7 +15,16 @@
 <body>
     <div id="app">
         <article v-for="(element, index) in discs">
-            {{ element.title }}
+            <img :src="element.img" :alt="element.title">
+            <p class="title">
+                {{ element.title }}
+            </p>
+            <p class="artist">
+                {{ element.artist }}
+            </p>
+            <p class="released">
+                {{ element.released }}
+            </p>
         </article>
 
     </div>
