@@ -1,0 +1,38 @@
+[
+    {
+      "title": "New Jersey",
+      "artist": "Bon Jovi",
+      "released": 1988,
+      "img": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2c/Bon_Jovi_New_Jersey.jpg/220px-Bon_Jovi_New_Jersey.jpg"
+    },
+    {
+      "title": "Live at Wembley 86",
+      "artist": "Queen",
+      "released": 1992,
+      "img": "https://upload.wikimedia.org/wikipedia/en/thumb/1/17/Queen_Live_At_Wembley_%2786.png/220px-Queen_Live_At_Wembley_%2786.png"
+    },
+    {
+      "title": "Ten's Summoner's Tales",
+      "artist": "Sting",
+      "released": 1993,
+      "img": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c1/Sting_-_Ten_Summoner%27s_Tales.png/220px-Sting_-_Ten_Summoner%27s_Tales.png"
+    },
+    {
+      "title": "Steve Gadd band",
+      "artist": "Steve Gadd Band",
+      "released": 2018,
+      "img": "https://i.scdn.co/image/ab67616d00001e0203cea6838961201fb58bea4f"
+    },
+    {
+      "title": "Brave new World",
+      "artist": "Iron Maiden",
+      "released": 2000,
+      "img": "https://upload.wikimedia.org/wikipedia/en/thumb/0/03/Iron_Maiden_-_Brave_New_World.jpg/220px-Iron_Maiden_-_Brave_New_World.jpg"
+    },
+    {
+      "title": "One more car, one more rider",
+      "artist": "Eric Clapton",
+      "released": 2002,
+      "img": "https://upload.wikimedia.org/wikipedia/en/thumb/9/97/Eric_Clapton_OMCOMR.jpg/220px-Eric_Clapton_OMCOMR.jpg"
+    }
+  ]
