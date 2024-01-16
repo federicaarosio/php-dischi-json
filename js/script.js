@@ -1,17 +1,31 @@
-/* ricordarsi di inserire nel body nell'html: <script src='https://unpkg.com/vue@3/dist/vue.global.js'></script> */
 const { createApp } = Vue;
 
 createApp({
     data() {
         return {
-            //server rispetto ad index
+            //path di server.php rispetto ad index
             apiUrl: './server.php',
-            discsList: [
-                'Title',
-                'Artist',
-                'Released',
-                'Img'
+            discs: [
+                // 'Title',
+                // 'Artist',
+                // 'Released',
+                // 'Img'
             ],
+
+            methods: {
+                getDiscs() {
+                    //il metodo deve far arrivare dati tramite richiesta axios
+                    axios.get(this.apiUrl)
+                    .then((response) => {
+                        this.discs = response.data;
+                        console.log(response.data);
+                    });
+                }
+            },
+
+            created() {
+                this.getDiscs();
+            }
         }
     },
 }).mount('#app');
