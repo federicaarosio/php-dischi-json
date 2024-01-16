@@ -4,6 +4,14 @@ const { createApp } = Vue;
 createApp({
     data() {
         return {
+            //server rispetto ad index
+            apiUrl: './server.php',
+            discsList: [
+                'Title',
+                'Artist',
+                'Released',
+                'Img'
+            ],
         }
     },
 }).mount('#app');

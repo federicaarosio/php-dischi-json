@@ -14,7 +14,9 @@
 
 <body>
     <div id="app">
-        <!-- Chiamata api che riceve i dischi -->
+        <div v-for="(element, index) in discsList">
+            {{ element }}
+        </div>
 
     </div>
 
