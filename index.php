@@ -14,11 +14,11 @@
 
 <body>
     <div id="app">
-
+        <!-- Chiamata api che riceve i dischi -->
 
     </div>
 
-
+    <script src="./js/script.js"></script>
 </body>
 
 </html>

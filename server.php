@@ -7,5 +7,5 @@
 $discs = file_get_contents('./json/dischi.json');
 //avviso il browser che riceverà un .json
 header('Content-Type: application/json');
-//no devo fare encode, il file è già json
+//non devo fare encode, il file è già json
 echo $discs;
