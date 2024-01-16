@@ -12,20 +12,22 @@ createApp({
                 // 'Img'
             ],
 
-            methods: {
-                getDiscs() {
-                    //il metodo deve far arrivare dati tramite richiesta axios
-                    axios.get(this.apiUrl)
-                    .then((response) => {
-                        this.discs = response.data;
-                        console.log(response.data);
-                    });
-                }
-            },
-
-            created() {
-                this.getDiscs();
-            }
         }
     },
+    
+    methods: {
+        getDiscs() {
+            //il metodo deve far arrivare dati tramite richiesta axios
+            axios.get(this.apiUrl)
+            .then((response) => {
+                this.discs = response.data;
+                console.log(response.data);
+            });
+        }
+    },
+
+    created() {
+        this.getDiscs();
+    }
+
 }).mount('#app');

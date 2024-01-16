@@ -15,7 +15,7 @@
 <body>
     <div id="app">
         <article v-for="(element, index) in discs">
-            {{ element }}
+            {{ element.title }}
         </article>
 
     </div>
