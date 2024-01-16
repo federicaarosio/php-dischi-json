@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1d2d3c;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    background-color: #06131f;
+    margin-bottom: 2rem;
+}
+
+header img.logo {
+    width: 70px;
+    padding: 1rem;
+    margin-left: 8rem;
+}
+
+section.albums {
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+article {
+    background-color: #112030;
+    text-align: center;
+    width: calc((100% / 3) - 2rem);
+    margin: 1rem;
+    border-radius: 10px;
+}
+
+div.wrapper {
+    margin-bottom: 2rem;
+}
+
+img.album {
+    width: 100%;
+    padding: 2rem;
+}
+
+p {
+    margin: 0 20px;
+}
+
+p.bold {
+    font-weight: 700;
+}
+
+p.light {
+    font-size: .9rem;
+}
